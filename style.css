@@ -433,3 +433,26 @@ body { background: linear-gradient(180deg, #eef2f6 0%, #e4e9ef 100%); min-height
   .page-title__inner > div:first-child { flex: 1; min-width: 0; }
   .sister-link { flex: none; margin-top: 2px; }
 }
+
+/* =====================================================================
+   ヘッダーの帯：USBメモリーセレクターのイメージカラー（薄いピンク）
+   ===================================================================== */
+.site-header {
+  background:
+    radial-gradient(900px 260px at 88% -30%, rgba(255,255,255,.75), transparent 60%),
+    linear-gradient(115deg, #fff3f7 0%, #fde3ec 48%, #f9cfdf 100%);
+  color: #4a1f33;
+  box-shadow: 0 8px 24px rgba(214,120,160,.22);
+  border-bottom: 1px solid #f3c2d6;
+}
+/* 右側にだけ浮かぶ、やさしい水玉模様 */
+.site-header::after {
+  background-image: radial-gradient(rgba(214,92,142,.22) 1.4px, transparent 1.6px);
+  background-size: 16px 16px;
+  -webkit-mask-image: linear-gradient(90deg, transparent 30%, #000 85%);
+  mask-image: linear-gradient(90deg, transparent 30%, #000 85%);
+}
+.site-header__logo { color: #8a2350; text-shadow: 0 1px 0 rgba(255,255,255,.8); }
+.site-header__badge { color: #8a2350; background: rgba(255,255,255,.7); border-color: #e9a8c3; }
+.search__input { border: 1px solid #f0bfd3; box-shadow: 0 4px 14px rgba(214,120,160,.18); }
+.search__input:focus { box-shadow: 0 0 0 3px rgba(226,110,160,.30); }
