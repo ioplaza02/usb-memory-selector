@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T07:11:18.613Z",
+  "updatedAt": "2026-10-19T07:18:04.544Z",
   "products": [
     {
       "id": "ed-e4r",
@@ -8,7 +8,7 @@
       "fullName": "USB 5Gbps（USB 3.2 Gen1）対応セキュリティUSBメモリー ED-E4/Rシリーズ",
       "lineup": "security",
       "bodyStyle": "slide",
-      "strapHole": false,
+      "strapHole": true,
       "clip": false,
       "accessLamp": true,
       "hostConnectors": [
@@ -97,7 +97,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-10-19T07:11:08.890Z"
+      "lastCheckedAt": "2026-10-19T07:17:54.933Z"
     },
     {
       "id": "ed-hb3",
@@ -194,7 +194,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-10-19T07:11:13.709Z"
+      "lastCheckedAt": "2026-10-19T07:17:59.820Z"
     },
     {
       "id": "ed-s4r",
@@ -203,7 +203,7 @@
       "fullName": "USB 5Gbps（USB 3.2 Gen1）対応 管理者用ソフトウェア対応 セキュリティUSBメモリー ED-S4/Rシリーズ",
       "lineup": "security",
       "bodyStyle": "slide",
-      "strapHole": false,
+      "strapHole": true,
       "clip": false,
       "accessLamp": true,
       "hostConnectors": [
@@ -292,7 +292,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-10-19T07:11:03.953Z"
+      "lastCheckedAt": "2026-10-19T07:17:50.268Z"
     },
     {
       "id": "ed-svt4",
@@ -301,7 +301,7 @@
       "fullName": "USB 5Gbps（USB 3.2 Gen1）対応 管理者ソフトウェア対応＆Trellixアンチウイルスエンジン搭載セキュリティUSBメモリー ED-SVT4シリーズ",
       "lineup": "security",
       "bodyStyle": "slide",
-      "strapHole": false,
+      "strapHole": true,
       "clip": false,
       "accessLamp": true,
       "hostConnectors": [
@@ -479,7 +479,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-10-19T07:10:48.814Z"
+      "lastCheckedAt": "2026-10-19T07:17:35.869Z"
     },
     {
       "id": "ed-v4r",
@@ -488,7 +488,7 @@
       "fullName": "USB 3.2 Gen 1（USB 3.0）対応 セキュリティUSBメモリー ED-V4/Rシリーズ",
       "lineup": "security",
       "bodyStyle": "slide",
-      "strapHole": false,
+      "strapHole": true,
       "clip": false,
       "accessLamp": true,
       "hostConnectors": [
@@ -517,7 +517,7 @@
         "antivirusEngine": "トレンドマイクロ",
         "adminSoftware": false,
         "fileEncryptSoftware": true,
-        "writeProtect": false,
+        "writeProtect": true,
         "retryLimit": 100
       },
       "longLife": false,
@@ -665,7 +665,7 @@
           "status": "生産終了"
         }
       ],
-      "lastCheckedAt": "2026-10-19T07:10:58.980Z"
+      "lastCheckedAt": "2026-10-19T07:17:45.396Z"
     },
     {
       "id": "ed-vt4",
@@ -674,7 +674,7 @@
       "fullName": "USB 5Gbps（USB 3.2 Gen1）対応 Trellix製アンチウイルスエンジン搭載セキュリティUSBメモリー ED-VT4シリーズ",
       "lineup": "security",
       "bodyStyle": "slide",
-      "strapHole": false,
+      "strapHole": true,
       "clip": false,
       "accessLamp": true,
       "hostConnectors": [
@@ -852,7 +852,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-10-19T07:10:53.630Z"
+      "lastCheckedAt": "2026-10-19T07:17:40.491Z"
     },
     {
       "id": "eu3-hr",
@@ -939,7 +939,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-10-19T07:10:18.615Z"
+      "lastCheckedAt": "2026-10-19T07:17:07.592Z"
     },
     {
       "id": "eu3-pwr",
@@ -948,7 +948,7 @@
       "fullName": "USB 3.2 Gen 1（USB 3.0）対応 セキュリティUSBメモリー EU3-PW/Rシリーズ",
       "lineup": "security",
       "bodyStyle": "slide",
-      "strapHole": false,
+      "strapHole": true,
       "clip": false,
       "accessLamp": true,
       "hostConnectors": [
@@ -1036,7 +1036,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-10-19T07:11:18.613Z"
+      "lastCheckedAt": "2026-10-19T07:18:04.543Z"
     },
     {
       "id": "eu3-str",
@@ -1091,7 +1091,7 @@
         {
           "sku": "EU3-ST/8GRB",
           "capacityGB": 8,
-          "color": null,
+          "color": "ブルー",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1102,7 +1102,7 @@
         {
           "sku": "EU3-ST/8GRK",
           "capacityGB": 8,
-          "color": null,
+          "color": "ブラック",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1113,7 +1113,7 @@
         {
           "sku": "EU3-ST/16GRB",
           "capacityGB": 16,
-          "color": null,
+          "color": "ブルー",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1124,7 +1124,7 @@
         {
           "sku": "EU3-ST/16GRK",
           "capacityGB": 16,
-          "color": null,
+          "color": "ブラック",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1135,7 +1135,7 @@
         {
           "sku": "EU3-ST/32GRK",
           "capacityGB": 32,
-          "color": null,
+          "color": "ブラック",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1146,7 +1146,7 @@
         {
           "sku": "EU3-ST/64GRK",
           "capacityGB": 64,
-          "color": null,
+          "color": "ブラック",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1155,7 +1155,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-10-19T07:10:23.681Z"
+      "lastCheckedAt": "2026-10-19T07:17:12.199Z"
     },
     {
       "id": "u3-abcv",
@@ -1252,7 +1252,7 @@
           "status": "在庫限り"
         }
       ],
-      "lastCheckedAt": "2026-10-19T07:10:44.016Z"
+      "lastCheckedAt": "2026-10-19T07:17:31.063Z"
     },
     {
       "id": "u3-clp",
@@ -1307,7 +1307,7 @@
         {
           "sku": "U3-CLP16G/B",
           "capacityGB": 16,
-          "color": null,
+          "color": "ライトブルー",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1318,7 +1318,7 @@
         {
           "sku": "U3-CLP16G/G",
           "capacityGB": 16,
-          "color": null,
+          "color": "ミントグリーン",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1329,7 +1329,7 @@
         {
           "sku": "U3-CLP16G/P",
           "capacityGB": 16,
-          "color": null,
+          "color": "ベビーピンク",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1340,7 +1340,7 @@
         {
           "sku": "U3-CLP16G/V",
           "capacityGB": 16,
-          "color": null,
+          "color": "ライラックパープル",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1351,7 +1351,7 @@
         {
           "sku": "U3-CLP32G/B",
           "capacityGB": 32,
-          "color": null,
+          "color": "ライトブルー",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1362,7 +1362,7 @@
         {
           "sku": "U3-CLP32G/G",
           "capacityGB": 32,
-          "color": null,
+          "color": "ミントグリーン",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1373,7 +1373,7 @@
         {
           "sku": "U3-CLP32G/P",
           "capacityGB": 32,
-          "color": null,
+          "color": "ベビーピンク",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1384,7 +1384,7 @@
         {
           "sku": "U3-CLP32G/V",
           "capacityGB": 32,
-          "color": null,
+          "color": "ライラックパープル",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1395,7 +1395,7 @@
         {
           "sku": "U3-CLP64G/B",
           "capacityGB": 64,
-          "color": null,
+          "color": "ライトブルー",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1406,7 +1406,7 @@
         {
           "sku": "U3-CLP64G/G",
           "capacityGB": 64,
-          "color": null,
+          "color": "ミントグリーン",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1417,7 +1417,7 @@
         {
           "sku": "U3-CLP64G/P",
           "capacityGB": 64,
-          "color": null,
+          "color": "ベビーピンク",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1428,7 +1428,7 @@
         {
           "sku": "U3-CLP64G/V",
           "capacityGB": 64,
-          "color": null,
+          "color": "ライラックパープル",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1437,7 +1437,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-10-19T07:10:28.832Z"
+      "lastCheckedAt": "2026-10-19T07:17:16.802Z"
     },
     {
       "id": "u3-dash",
@@ -1490,7 +1490,7 @@
         {
           "sku": "U3-DASH32G/K",
           "capacityGB": 32,
-          "color": null,
+          "color": "ブラック",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1501,7 +1501,7 @@
         {
           "sku": "U3-DASH32G/W",
           "capacityGB": 32,
-          "color": null,
+          "color": "ホワイト",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1512,7 +1512,7 @@
         {
           "sku": "U3-DASH64G/K",
           "capacityGB": 64,
-          "color": null,
+          "color": "ブラック",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1523,7 +1523,7 @@
         {
           "sku": "U3-DASH64G/W",
           "capacityGB": 64,
-          "color": null,
+          "color": "ホワイト",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1534,7 +1534,7 @@
         {
           "sku": "U3-DASH128G/K",
           "capacityGB": 128,
-          "color": null,
+          "color": "ブラック",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1545,7 +1545,7 @@
         {
           "sku": "U3-DASH128G/W",
           "capacityGB": 128,
-          "color": null,
+          "color": "ホワイト",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1554,7 +1554,7 @@
           "status": "在庫限り"
         }
       ],
-      "lastCheckedAt": "2026-10-19T07:10:39.057Z"
+      "lastCheckedAt": "2026-10-19T07:17:26.275Z"
     },
     {
       "id": "u3-psh",
@@ -1609,7 +1609,7 @@
         {
           "sku": "U3-PSH8G/B",
           "capacityGB": 8,
-          "color": null,
+          "color": "ブルー",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1620,7 +1620,7 @@
         {
           "sku": "U3-PSH8G/K",
           "capacityGB": 8,
-          "color": null,
+          "color": "ブラック",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1631,7 +1631,7 @@
         {
           "sku": "U3-PSH8G/R",
           "capacityGB": 8,
-          "color": null,
+          "color": "レッド",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1642,7 +1642,7 @@
         {
           "sku": "U3-PSH8G/W",
           "capacityGB": 8,
-          "color": null,
+          "color": "ホワイト",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1653,7 +1653,7 @@
         {
           "sku": "U3-PSH16G/B",
           "capacityGB": 16,
-          "color": null,
+          "color": "ブルー",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1664,7 +1664,7 @@
         {
           "sku": "U3-PSH16G/K",
           "capacityGB": 16,
-          "color": null,
+          "color": "ブラック",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1675,7 +1675,7 @@
         {
           "sku": "U3-PSH16G/R",
           "capacityGB": 16,
-          "color": null,
+          "color": "レッド",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1686,7 +1686,7 @@
         {
           "sku": "U3-PSH16G/W",
           "capacityGB": 16,
-          "color": null,
+          "color": "ホワイト",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1697,7 +1697,7 @@
         {
           "sku": "U3-PSH32G/B",
           "capacityGB": 32,
-          "color": null,
+          "color": "ブルー",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1708,7 +1708,7 @@
         {
           "sku": "U3-PSH32G/K",
           "capacityGB": 32,
-          "color": null,
+          "color": "ブラック",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1719,7 +1719,7 @@
         {
           "sku": "U3-PSH32G/R",
           "capacityGB": 32,
-          "color": null,
+          "color": "レッド",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1730,7 +1730,7 @@
         {
           "sku": "U3-PSH32G/W",
           "capacityGB": 32,
-          "color": null,
+          "color": "ホワイト",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1741,7 +1741,7 @@
         {
           "sku": "U3-PSH64G/B",
           "capacityGB": 64,
-          "color": null,
+          "color": "ブルー",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1752,7 +1752,7 @@
         {
           "sku": "U3-PSH64G/K",
           "capacityGB": 64,
-          "color": null,
+          "color": "ブラック",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1763,7 +1763,7 @@
         {
           "sku": "U3-PSH64G/R",
           "capacityGB": 64,
-          "color": null,
+          "color": "レッド",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1774,7 +1774,7 @@
         {
           "sku": "U3-PSH64G/W",
           "capacityGB": 64,
-          "color": null,
+          "color": "ホワイト",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1785,7 +1785,7 @@
         {
           "sku": "U3-PSH128G/B",
           "capacityGB": 128,
-          "color": null,
+          "color": "ブルー",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1796,7 +1796,7 @@
         {
           "sku": "U3-PSH128G/K",
           "capacityGB": 128,
-          "color": null,
+          "color": "ブラック",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1807,7 +1807,7 @@
         {
           "sku": "U3-PSH128G/R",
           "capacityGB": 128,
-          "color": null,
+          "color": "レッド",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1818,7 +1818,7 @@
         {
           "sku": "U3-PSH128G/W",
           "capacityGB": 128,
-          "color": null,
+          "color": "ホワイト",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1827,7 +1827,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-10-19T07:10:34.124Z"
+      "lastCheckedAt": "2026-10-19T07:17:21.610Z"
     },
     {
       "id": "u3-stdr",
@@ -1838,7 +1838,7 @@
       "bodyStyle": "slide",
       "strapHole": true,
       "clip": false,
-      "accessLamp": true,
+      "accessLamp": false,
       "hostConnectors": [
         "A"
       ],
@@ -1880,7 +1880,7 @@
         {
           "sku": "U3-STD16GR/B",
           "capacityGB": 16,
-          "color": null,
+          "color": "スケルトンブルー",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1891,7 +1891,7 @@
         {
           "sku": "U3-STD16GR/BR",
           "capacityGB": 16,
-          "color": null,
+          "color": "スケルトンブラウン",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1902,7 +1902,7 @@
         {
           "sku": "U3-STD16GR/K",
           "capacityGB": 16,
-          "color": null,
+          "color": "ブラック",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1913,7 +1913,7 @@
         {
           "sku": "U3-STD16GR/P",
           "capacityGB": 16,
-          "color": null,
+          "color": "ピンク",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1924,7 +1924,7 @@
         {
           "sku": "U3-STD16GR/W",
           "capacityGB": 16,
-          "color": null,
+          "color": "ホワイト",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1935,7 +1935,7 @@
         {
           "sku": "U3-STD32GR/B",
           "capacityGB": 32,
-          "color": null,
+          "color": "スケルトンブルー",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1946,7 +1946,7 @@
         {
           "sku": "U3-STD32GR/K",
           "capacityGB": 32,
-          "color": null,
+          "color": "ブラック",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1957,7 +1957,7 @@
         {
           "sku": "U3-STD32GR/P",
           "capacityGB": 32,
-          "color": null,
+          "color": "ピンク",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1968,7 +1968,7 @@
         {
           "sku": "U3-STD32GR/W",
           "capacityGB": 32,
-          "color": null,
+          "color": "ホワイト",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1979,7 +1979,7 @@
         {
           "sku": "U3-STD64GR/K",
           "capacityGB": 64,
-          "color": null,
+          "color": "ブラック",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -1990,7 +1990,7 @@
         {
           "sku": "U3-STD64GR/P",
           "capacityGB": 64,
-          "color": null,
+          "color": "ピンク",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -2001,7 +2001,7 @@
         {
           "sku": "U3-STD64GR/W",
           "capacityGB": 64,
-          "color": null,
+          "color": "ホワイト",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -2012,7 +2012,7 @@
         {
           "sku": "U3-STD128GR/K",
           "capacityGB": 128,
-          "color": null,
+          "color": "ブラック",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -2023,7 +2023,7 @@
         {
           "sku": "U3-STD128GR/P",
           "capacityGB": 128,
-          "color": null,
+          "color": "ピンク",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -2034,7 +2034,7 @@
         {
           "sku": "U3-STD128GR/W",
           "capacityGB": 128,
-          "color": null,
+          "color": "ホワイト",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -2045,7 +2045,7 @@
         {
           "sku": "U3-STD256GR/K",
           "capacityGB": 256,
-          "color": null,
+          "color": "ブラック",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -2054,7 +2054,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-10-19T07:10:13.719Z"
+      "lastCheckedAt": "2026-10-19T07:17:02.963Z"
     },
     {
       "id": "u3c-std",
@@ -2110,7 +2110,7 @@
         {
           "sku": "U3C-STD16G/K",
           "capacityGB": 16,
-          "color": null,
+          "color": "ブラック",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -2121,7 +2121,7 @@
         {
           "sku": "U3C-STD16G/S",
           "capacityGB": 16,
-          "color": null,
+          "color": "シルバー",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -2132,7 +2132,7 @@
         {
           "sku": "U3C-STD32G/K",
           "capacityGB": 32,
-          "color": null,
+          "color": "ブラック",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -2143,7 +2143,7 @@
         {
           "sku": "U3C-STD32G/S",
           "capacityGB": 32,
-          "color": null,
+          "color": "シルバー",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -2154,7 +2154,7 @@
         {
           "sku": "U3C-STD64G/K",
           "capacityGB": 64,
-          "color": null,
+          "color": "ブラック",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -2165,7 +2165,7 @@
         {
           "sku": "U3C-STD64G/S",
           "capacityGB": 64,
-          "color": null,
+          "color": "シルバー",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -2176,7 +2176,7 @@
         {
           "sku": "U3C-STD128G/K",
           "capacityGB": 128,
-          "color": null,
+          "color": "ブラック",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -2187,7 +2187,7 @@
         {
           "sku": "U3C-STD128G/S",
           "capacityGB": 128,
-          "color": null,
+          "color": "シルバー",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -2198,7 +2198,7 @@
         {
           "sku": "U3C-STD256G/K",
           "capacityGB": 256,
-          "color": null,
+          "color": "ブラック",
           "warrantyYears": 1,
           "priceIncTax": null,
           "priceExTax": null,
@@ -2207,7 +2207,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-10-19T07:10:08.903Z"
+      "lastCheckedAt": "2026-10-19T07:16:58.372Z"
     }
   ]
 }
