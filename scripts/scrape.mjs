@@ -181,6 +181,25 @@ function detectStatus(text) {
 const COLOR_WORDS = ["ライラックパープル", "ベビーピンク", "ミントグリーン", "ライトブルー", "スケルトンブルー", "スケルトンブラウン",
   "ブラック", "ホワイト", "シルバー", "ピンク", "ブルー", "レッド", "グリーン", "ゴールド", "グレー"].sort((a, b) => b.length - a.length);
 
+// 型番の末尾の記号 → 色名（例：U3-PSH16G/K → ブラック）。
+// シリーズで色名が違う場合（例：U3-CLPの /B はライトブルー）は overrides.json の colorCodes で上書きする。
+const COLOR_CODES = { K: "ブラック", W: "ホワイト", S: "シルバー", B: "ブルー", R: "レッド", P: "ピンク", G: "グリーン", V: "パープル", BR: "ブラウン", GD: "ゴールド", GY: "グレー" };
+function colorSuffix(sku) {
+  const m = String(sku).match(/\/(?:\d+G)?R?([A-Z]{1,2})$/);
+  return m ? m[1] : null;
+}
+// 価格表から色が読めなかったときだけ、型番の記号から色名を補う。
+// シリーズ内で記号が1種類しかない場合（例：EU3-PW/8GR の R）は色ではないので補わない。
+function fillColorsFromSku(variants, codes) {
+  const suffixes = new Set(variants.map((v) => colorSuffix(v.sku)).filter(Boolean));
+  if (suffixes.size < 2) return;
+  for (const v of variants) {
+    if (v.color) continue;
+    const c = colorSuffix(v.sku);
+    v.color = (codes && codes[c]) || COLOR_CODES[c] || null;
+  }
+}
+
 // 型番の末尾で保証年数が変わるシリーズ（例：ED-SVT4/8G3 = 3年版、ED-V4/8GR5 = 5年版）
 function warrantyFromSku(sku) {
   const m = String(sku).match(/\/\d+GR?([35])$/);
@@ -199,12 +218,17 @@ function extractVariants(indexHtml) {
       if (idx >= 0 && r.length > 2) { colorCol = idx; break; }
     }
 
+    let groupColor = null; // 「ブラック」のように色名だけが書かれた見出し行の色
     for (const r of rows) {
       const texts = r.map((c) => c.text);
       // 型番の判定は、アイコン画像のalt文字を含めないテキストで行う（「NEW」が型番にくっつくのを防ぐ）
       const plain = r.map((c) => decodeEntities(c.html.replace(/<img[^>]*>/gi, " ").replace(/<[^>]+>/g, " ")).replace(/\s+/g, " ").trim());
       const skuIdx = plain.findIndex((t) => /^[A-Z][A-Z0-9-]*\d[A-Z0-9-\/]*$/.test(t.replace(/\s/g, "")));
-      if (skuIdx < 0) continue;
+      if (skuIdx < 0) {
+        const t = texts.join(" ");
+        if (t.length <= 30) groupColor = COLOR_WORDS.find((w) => t.includes(w)) || groupColor;
+        continue;
+      }
       const sku = plain[skuIdx].replace(/\s/g, "").replace(/NEW$/, "");
       const rowText = texts.join(" ");
       const cap = rowText.match(/(\d+(?:\.\d+)?)\s*(TB|GB)\b/i);
@@ -213,7 +237,7 @@ function extractVariants(indexHtml) {
       const jan = rowText.match(/\b(4\d{12})\b/);
       let color = null;
       if (colorCol >= 0 && texts[colorCol] && texts.length > colorCol && !/^(カラー|色)$/.test(texts[colorCol])) color = texts[colorCol];
-      if (!color) color = COLOR_WORDS.find((w) => rowText.includes(w)) || null;
+      if (!color) color = COLOR_WORDS.find((w) => rowText.includes(w)) || groupColor || null;
 
       if (bySku.has(sku)) continue;
       bySku.set(sku, {
@@ -323,7 +347,7 @@ function deriveFields({ slug, folder, listedIn, heading, indexHtml, specHtml }) 
   // 管理者用ソフト：他シリーズとの比較表にも名前が出るため、仕様ページの記載で判定する
   const adminSoftware = /SUHManager/i.test(specText);
   const fileEncryptSoftware = /QuickSecure/i.test(all);
-  const writeProtect = /書き込み禁止/.test(all);
+  const writeProtect = /書き?込み禁止|ライトプロテクト|読み取り専用/.test(all);
   const retry = all.match(/(?:入力ミスの上限は|連続\s*)(\d+)\s*回/);
 
   const warrantyYears = (warrantyText.match(/(\d+)\s*年/) || all.match(/(\d)\s*年保証/) || [])[1];
@@ -485,7 +509,9 @@ async function main() {
   for (const p of products) {
     const slug = p._slug;
     delete p._slug;
+    fillColorsFromSku(p.variants, (overrides[slug] || {}).colorCodes);
     const product = applyOverride(p, overrides[slug]);
+    delete product.colorCodes;
     if (product.exclude) { console.log(`  -> ${slug}: overrides.jsonで除外指定`); continue; }
     delete product.exclude;
     if (product.variants.length) finalList.push(product);
