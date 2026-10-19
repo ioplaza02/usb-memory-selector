@@ -284,7 +284,37 @@
     }
 
     // ---------- フィルターUIを組み立てる ----------
+    // 左の絞り込みメニューは、ほかのセレクターと同じ「じゃばら」（開閉できる見出し）にする。
+    // よく使う項目は最初から開いておき、それ以外は閉じておく。
+    const OPEN_BY_DEFAULT = ["cap", "style", "conn", "device", "secure"];
+    function buildAccordion() {
+      $$("#filter-panel .fgroup").forEach((g) => {
+        const key = (g.querySelector("[data-filter]") || {}).dataset?.filter || "";
+        const title = g.querySelector(".fgroup__title");
+        const d = document.createElement("details");
+        d.className = "fgroup";
+        d.dataset.key = key;
+        const sm = document.createElement("summary");
+        sm.className = "fgroup__title";
+        sm.innerHTML = `<span class="fgroup__name">${title.innerHTML}</span><span class="fgroup__sel"></span>`;
+        title.remove();
+        d.appendChild(sm);
+        while (g.firstChild) d.appendChild(g.firstChild);
+        d.open = OPEN_BY_DEFAULT.includes(key);
+        g.replaceWith(d);
+      });
+    }
+    // 選択中の数を見出しに出す（閉じていても、何か選んでいることが分かるように）
+    function syncAccordion(openSelected) {
+      $$("#filter-panel details.fgroup").forEach((d) => {
+        const n = state[d.dataset.key] ? state[d.dataset.key].size : 0;
+        d.querySelector(".fgroup__sel").textContent = n ? `${n}件選択中` : "";
+        if (openSelected && n) d.open = true;
+      });
+    }
+
     function buildFilters() {
+      buildAccordion();
       $('[data-filter="cap"]').innerHTML = CAP_OPTIONS.map((o) => `<button type="button" data-value="${o.v}" aria-pressed="false">${o.label}<span class="cnt"></span></button>`).join("");
       $('[data-filter="price"]').innerHTML = PRICE_OPTIONS.map((o) => `<button type="button" data-value="${o.v}" aria-pressed="false">${o.label}<span class="cnt"></span></button>`).join("");
       for (const [k, g] of Object.entries(CHECK_GROUPS)) {
@@ -354,6 +384,7 @@
         lab.querySelector(".cnt").textContent = n == null ? "" : ` (${n})`;
         lab.classList.toggle("is-zero", n === 0);
       });
+      syncAccordion(false);
       $("#keyword-input").value = state.q;
       $("#sort-select").value = state.sort;
       $("#include-eol").checked = state.eol;
@@ -777,6 +808,7 @@
         renderUpdatedAt(data.updatedAt);
         const open = readUrl();
         syncFilterUi();
+        syncAccordion(true); // URLで条件が付いている項目は開いて見せる
         render();
         if (open && state.compare.length) openModal();
       })

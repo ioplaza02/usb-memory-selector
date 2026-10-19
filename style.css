@@ -456,3 +456,26 @@ body { background: linear-gradient(180deg, #eef2f6 0%, #e4e9ef 100%); min-height
 .site-header__badge { color: #8a2350; background: rgba(255,255,255,.7); border-color: #e9a8c3; }
 .search__input { border: 1px solid #f0bfd3; box-shadow: 0 4px 14px rgba(214,120,160,.18); }
 .search__input:focus { box-shadow: 0 0 0 3px rgba(226,110,160,.30); }
+
+/* =====================================================================
+   左メニューのじゃばら（ほかのセレクターと同じく、見出しの ▸ で開閉）
+   ===================================================================== */
+details.fgroup { padding: 4px 0 6px; }
+details.fgroup[open] { padding-bottom: 14px; }
+details.fgroup > summary.fgroup__title {
+  display: flex; align-items: center; gap: 8px; margin: 0; padding: 9px 2px 9px 11px;
+  cursor: pointer; list-style: none; user-select: none; border-radius: 8px; transition: background .15s;
+}
+details.fgroup > summary.fgroup__title::-webkit-details-marker { display: none; }
+details.fgroup > summary.fgroup__title::before { top: 12px; bottom: 12px; }
+details.fgroup > summary.fgroup__title:hover { background: #f3f6f9; }
+.fgroup__name { flex: 1; }
+.fgroup__sel { font-size: 11px; font-weight: 800; color: #fff; background: var(--accent); border-radius: 999px; padding: 0 8px; line-height: 1.7; }
+.fgroup__sel:empty { display: none; }
+details.fgroup > summary.fgroup__title::after {
+  content: "▸"; flex: none; width: 18px; text-align: center; color: var(--accent); font-size: 14px;
+  transition: transform .25s ease;
+}
+details.fgroup[open] > summary.fgroup__title::after { transform: rotate(90deg); }
+details.fgroup[open] > :not(summary) { animation: fgOpen .25s both; }
+@keyframes fgOpen { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
