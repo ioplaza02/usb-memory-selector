@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T22:10:59.020Z",
+  "updatedAt": "2026-10-30T21:47:20.274Z",
   "products": [
     {
       "id": "ed-e4r",
@@ -27,7 +27,7 @@
         "winServer": true
       },
       "androidViaAdapter": false,
-      "osText": "Windows 11 Windows 10 ※3 Windows 8.1 Windows 7 Windows Server 2025 ※1 Windows Server 2022 ※1 Windows Server 2019 ※1 Windows Server 2016 ※1 Windows Server 2012 R2 ※1 Windows Server 2012 ※1 Windows Server 2008 R2 ※1、※2 Windows Server 2008 ※1、※2 macOS 26 ※4 macOS 10.11 ～ 15 ※4",
+      "osText": "Windows 11 Windows 10 ※3 Windows 8.1 Windows 7 Windows Server 2025 ※1 Windows Server 2022 ※1 Windows Server 2019 ※1 Windows Server 2016 ※1 Windows Server 2012 R2 ※1 Windows Server 2012 ※1 Windows Server 2008 R2 ※1、※2 Windows Server 2008 ※1、※2 macOS 26 ～ 27 ※4 macOS 10.11 ～ 15 ※4",
       "compatText": "USB 3.2 Gen 1（USB 3.0）／USB 2.0 ポート Standard A コネクターを搭載した機種",
       "security": {
         "passwordLock": true,
@@ -97,7 +97,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-10-29T22:10:49.348Z"
+      "lastCheckedAt": "2026-10-30T21:47:10.490Z"
     },
     {
       "id": "ed-hb3",
@@ -125,7 +125,7 @@
         "winServer": true
       },
       "androidViaAdapter": false,
-      "osText": "Windows 11 Windows 10 Windows 8.1 Windows 7 Windows Server 2025 Windows Server 2022 Windows Server 2019 Windows Server 2016 Windows Server 2012 R2 Windows Server 2012 Windows Server 2008 R2 Windows Server 2008 macOS 10.10 ～ 15 macOS 26 Chrome OS",
+      "osText": "Windows 11 Windows 10 Windows 8.1 Windows 7 Windows Server 2025 Windows Server 2022 Windows Server 2019 Windows Server 2016 Windows Server 2012 R2 Windows Server 2012 Windows Server 2008 R2 Windows Server 2008 macOS 10.10 ～ 15 macOS 26 ～ 27 Chrome OS",
       "compatText": "USBポートStandard Aコネクターを搭載したWindowsパソコン、Mac、Chromebook",
       "security": {
         "passwordLock": true,
@@ -194,7 +194,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-10-29T22:10:54.127Z"
+      "lastCheckedAt": "2026-10-30T21:47:15.482Z"
     },
     {
       "id": "ed-s4r",
@@ -222,7 +222,7 @@
         "winServer": true
       },
       "androidViaAdapter": false,
-      "osText": "Windows 11 Windows 10 ※4 Windows 8.1 Windows 7 Windows Server 2025 ※1 Windows Server 2022 ※1 Windows Server 2019 ※1 Windows Server 2016 ※1 Windows Server 2012 R2 ※1 Windows Server 2012 ※1 Windows Server 2008 R2 ※1、※2 Windows Server 2008 ※1、※2 macOS 26 ※3、5、6 macOS 10.11 ～ 15 ※3、5、6",
+      "osText": "Windows 11 Windows 10 ※4 Windows 8.1 Windows 7 Windows Server 2025 ※1 Windows Server 2022 ※1 Windows Server 2019 ※1 Windows Server 2016 ※1 Windows Server 2012 R2 ※1 Windows Server 2012 ※1 Windows Server 2008 R2 ※1、※2 Windows Server 2008 ※1、※2 macOS 26 ～ 27 ※3、5、6 macOS 10.11 ～ 15 ※3、5、6",
       "compatText": "USB 3.2 Gen 1（USB 3.0）／USB 2.0 ポート Standard A コネクターを搭載した機種",
       "security": {
         "passwordLock": true,
@@ -292,7 +292,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-10-29T22:10:44.441Z"
+      "lastCheckedAt": "2026-10-30T21:47:05.564Z"
     },
     {
       "id": "ed-svt4",
@@ -479,7 +479,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-10-29T22:10:28.968Z"
+      "lastCheckedAt": "2026-10-30T21:46:50.568Z"
     },
     {
       "id": "ed-v4r",
@@ -665,7 +665,7 @@
           "status": "生産終了"
         }
       ],
-      "lastCheckedAt": "2026-10-29T22:10:39.516Z"
+      "lastCheckedAt": "2026-10-30T21:47:00.708Z"
     },
     {
       "id": "ed-vt4",
@@ -852,7 +852,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-10-29T22:10:34.286Z"
+      "lastCheckedAt": "2026-10-30T21:46:55.570Z"
     },
     {
       "id": "eu3-hr",
@@ -880,7 +880,7 @@
         "winServer": true
       },
       "androidViaAdapter": false,
-      "osText": "Windows 11 Windows 10 Windows 8.1 Windows Server 2025 Windows Server 2022 Windows Server 2019 Windows Server 2016 Windows Server 2012 R2 Windows Server 2012 macOS 10.11 ～ 15 macOS 26 Chrome OS",
+      "osText": "Windows 11 Windows 10 Windows 8.1 Windows Server 2025 Windows Server 2022 Windows Server 2019 Windows Server 2016 Windows Server 2012 R2 Windows Server 2012 macOS 10.11 ～ 15 macOS 26 ～ 27 Chrome OS",
       "compatText": "USB 3.2 Gen 1（USB 3.0）／USB 2.0 ポート Standard A コネクターを搭載した機種",
       "security": {
         "passwordLock": false,
@@ -939,7 +939,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-10-29T22:09:58.112Z"
+      "lastCheckedAt": "2026-10-30T21:46:20.758Z"
     },
     {
       "id": "eu3-pwr",
@@ -1036,7 +1036,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-10-29T22:10:59.019Z"
+      "lastCheckedAt": "2026-10-30T21:47:20.273Z"
     },
     {
       "id": "eu3-str",
@@ -1064,7 +1064,7 @@
         "winServer": true
       },
       "androidViaAdapter": false,
-      "osText": "Windows 11 Windows 10 Windows 8.1 Windows 7 Windows Server 2025 Windows Server 2022 Windows Server 2019 Windows Server 2016 Windows Server 2012 R2 Windows Server 2012 Windows Server 2008 R2 Windows Server 2008 macOS 10.11 ～ 15 macOS 26 Chrome OS Ubuntu 22.04 ※1",
+      "osText": "Windows 11 Windows 10 Windows 8.1 Windows 7 Windows Server 2025 Windows Server 2022 Windows Server 2019 Windows Server 2016 Windows Server 2012 R2 Windows Server 2012 Windows Server 2008 R2 Windows Server 2008 macOS 10.11 ～ 15 macOS 26 ～ 27 Chrome OS Ubuntu 22.04 ※1",
       "compatText": "USB 3.2 Gen 1（USB 3.0）／USB 2.0 ポート Standard A コネクターを搭載した機種",
       "security": {
         "passwordLock": false,
@@ -1155,7 +1155,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-10-29T22:10:03.443Z"
+      "lastCheckedAt": "2026-10-30T21:46:25.765Z"
     },
     {
       "id": "u3-abcv",
@@ -1252,7 +1252,7 @@
           "status": "在庫限り"
         }
       ],
-      "lastCheckedAt": "2026-10-29T22:10:23.852Z"
+      "lastCheckedAt": "2026-10-30T21:46:45.573Z"
     },
     {
       "id": "u3-clp",
@@ -1280,7 +1280,7 @@
         "winServer": false
       },
       "androidViaAdapter": false,
-      "osText": "Windows 11 Windows 10 Windows 8.1 macOS 10.11 ～ 15 macOS 26 Chrome OS",
+      "osText": "Windows 11 Windows 10 Windows 8.1 macOS 10.11 ～ 15 macOS 26 ～ 27 Chrome OS",
       "compatText": "USB 3.2 Gen 1（USB 3.0）/USB 2.0 ポート Standard A コネクターを搭載した機種",
       "security": {
         "passwordLock": false,
@@ -1437,7 +1437,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-10-29T22:10:08.629Z"
+      "lastCheckedAt": "2026-10-30T21:46:30.728Z"
     },
     {
       "id": "u3-dash",
@@ -1554,7 +1554,7 @@
           "status": "在庫限り"
         }
       ],
-      "lastCheckedAt": "2026-10-29T22:10:19.079Z"
+      "lastCheckedAt": "2026-10-30T21:46:40.751Z"
     },
     {
       "id": "u3-psh",
@@ -1582,7 +1582,7 @@
         "winServer": false
       },
       "androidViaAdapter": true,
-      "osText": "Windows 11 Windows 10 Windows 8.1 Windows 8 Windows 7 macOS 10.12 ～ 15 macOS 26 OS X 10.7 ～ 10.11 Chrome OS",
+      "osText": "Windows 11 Windows 10 Windows 8.1 Windows 8 Windows 7 macOS 10.12 ～ 15 macOS 26 ～ 27 OS X 10.7 ～ 10.11 Chrome OS",
       "compatText": "USB 3.2 Gen 1（USB 3.0）/USB 2.0 ポート Standard A コネクターを搭載した機種",
       "security": {
         "passwordLock": false,
@@ -1827,7 +1827,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-10-29T22:10:14.109Z"
+      "lastCheckedAt": "2026-10-30T21:46:35.916Z"
     },
     {
       "id": "u3-stdr",
@@ -1855,7 +1855,7 @@
         "winServer": false
       },
       "androidViaAdapter": false,
-      "osText": "Windows 11 Windows 10 Windows 8.1 Windows 7 macOS 10.11 ～ 15 macOS 26 Chrome OS",
+      "osText": "Windows 11 Windows 10 Windows 8.1 Windows 7 macOS 10.11 ～ 15 macOS 26 ～ 27 Chrome OS",
       "compatText": "USB 3.2 Gen 1（USB 3.0）／USB 2.0 ポート Standard A コネクターを搭載した機種",
       "security": {
         "passwordLock": false,
@@ -2054,7 +2054,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-10-29T22:09:52.922Z"
+      "lastCheckedAt": "2026-10-30T21:46:15.918Z"
     },
     {
       "id": "u3c-std",
@@ -2207,7 +2207,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-10-29T22:09:47.727Z"
+      "lastCheckedAt": "2026-10-30T21:46:10.791Z"
     }
   ]
 }
