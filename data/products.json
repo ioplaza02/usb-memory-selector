@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T21:28:21.958Z",
+  "updatedAt": "2026-11-03T00:10:46.082Z",
   "products": [
     {
       "id": "ed-e4r",
@@ -97,7 +97,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-11-01T21:28:12.566Z"
+      "lastCheckedAt": "2026-11-03T00:10:36.361Z"
     },
     {
       "id": "ed-hb3",
@@ -194,7 +194,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-11-01T21:28:17.298Z"
+      "lastCheckedAt": "2026-11-03T00:10:41.243Z"
     },
     {
       "id": "ed-s4r",
@@ -292,7 +292,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-11-01T21:28:07.952Z"
+      "lastCheckedAt": "2026-11-03T00:10:31.459Z"
     },
     {
       "id": "ed-svt4",
@@ -479,7 +479,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-11-01T21:27:53.381Z"
+      "lastCheckedAt": "2026-11-03T00:10:16.215Z"
     },
     {
       "id": "ed-v4r",
@@ -665,7 +665,7 @@
           "status": "生産終了"
         }
       ],
-      "lastCheckedAt": "2026-11-01T21:28:03.225Z"
+      "lastCheckedAt": "2026-11-03T00:10:26.569Z"
     },
     {
       "id": "ed-vt4",
@@ -852,7 +852,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-11-01T21:27:58.236Z"
+      "lastCheckedAt": "2026-11-03T00:10:21.270Z"
     },
     {
       "id": "eu3-hr",
@@ -939,7 +939,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-11-01T21:27:24.420Z"
+      "lastCheckedAt": "2026-11-03T00:09:46.550Z"
     },
     {
       "id": "eu3-pwr",
@@ -1036,7 +1036,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-11-01T21:28:21.958Z"
+      "lastCheckedAt": "2026-11-03T00:10:46.081Z"
     },
     {
       "id": "eu3-str",
@@ -1155,7 +1155,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-11-01T21:27:29.168Z"
+      "lastCheckedAt": "2026-11-03T00:09:51.473Z"
     },
     {
       "id": "u3-abcv",
@@ -1252,7 +1252,7 @@
           "status": "在庫限り"
         }
       ],
-      "lastCheckedAt": "2026-11-01T21:27:48.457Z"
+      "lastCheckedAt": "2026-11-03T00:10:11.438Z"
     },
     {
       "id": "u3-clp",
@@ -1437,7 +1437,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-11-01T21:27:34.007Z"
+      "lastCheckedAt": "2026-11-03T00:09:56.500Z"
     },
     {
       "id": "u3-dash",
@@ -1554,7 +1554,7 @@
           "status": "在庫限り"
         }
       ],
-      "lastCheckedAt": "2026-11-01T21:27:43.784Z"
+      "lastCheckedAt": "2026-11-03T00:10:06.699Z"
     },
     {
       "id": "u3-psh",
@@ -1827,7 +1827,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-11-01T21:27:39.073Z"
+      "lastCheckedAt": "2026-11-03T00:10:01.755Z"
     },
     {
       "id": "u3-stdr",
@@ -2054,7 +2054,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-11-01T21:27:19.861Z"
+      "lastCheckedAt": "2026-11-03T00:09:41.698Z"
     },
     {
       "id": "u3c-std",
@@ -2207,7 +2207,7 @@
           "status": "現行"
         }
       ],
-      "lastCheckedAt": "2026-11-01T21:27:14.917Z"
+      "lastCheckedAt": "2026-11-03T00:09:36.546Z"
     }
   ]
 }
